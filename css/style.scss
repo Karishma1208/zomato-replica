@@ -1,3 +1,202 @@
 @use './reset.scss';
 
 /* Add your css here */
+
+
+.topbarimg
+{
+    width: 2rem;
+}
+.banner
+{
+    background-image: url("../images/bg.jpg"),;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+    background-color:#0000006b;
+    
+}
+.banner-section1
+{
+    a
+    {
+        color: white;
+    }
+    button
+    {
+        border: 2px solid  white;
+        color: white;
+        border-radius: none;
+    }
+}
+
+.banner-section2 
+{
+    h1{
+        font-size: 28px;
+        color: white;
+        font-weight: lighter;
+        text-align: center;
+    }
+    img{
+        width: 128px;
+        height: 128px;
+    }
+}
+.main-widget
+{
+    h1
+    {
+        font-size: 25px;
+    }
+    small
+    {
+        font-size: 15px;
+        color: gray;
+    }
+    .subwidget
+    {
+            background-color: #fff; 
+            border: 1px solid #00000021;
+            border-radius: 2px;
+            h4{
+                font-size: 18px;
+            }
+            
+    }
+}
+
+.collection
+{
+    h1{
+        font-size: 25px;
+    }
+    small
+    {
+        font-size: 15px;
+        color: gray;
+    }
+    img{
+        width: 100%;
+    }
+}
+.collection_item
+{
+    .d-flex
+    {
+        border: 1px solid #00000021;
+        background-color: white;
+    }
+    
+}
+.collbutton
+{
+    border: 1px solid #00000021;
+    background-color: white;
+    color: rgba(158, 18, 18, 0.89);
+}
+.categories
+{
+    h2{
+        font-size: 25px;
+    }
+    p
+    {
+        font-size: 15px;
+        color: gray;
+    }
+}
+.category-list
+{
+    height: 10rem;
+    border: 1px solid #00000021;
+    background-color:white;
+    img{
+        width: 3rem;
+        &:hover
+        {
+            opacity: 0.4;
+        }
+    }
+    li
+    {
+        cursor: pointer;
+    }
+}
+.localities
+{
+    h2{
+        font-size: 25px;
+    }
+    p
+    {
+        font-size: 15px;
+        color: gray;
+    }
+}
+
+.locality-list
+{
+    border: 1px solid #00000021;
+    background-color:white;
+    text-align: center;
+    li
+    {
+        text-align: left;
+        margin: 1rem 0 0 0;
+    }
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    img
+    { 
+        width: 4rem;
+        border-radius: 7px;
+    }
+}
+.footerwidget
+{
+    ul{
+        li{
+            cursor: pointer;
+            margin: 1rem 0 0 0;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.554);
+        }
+    }
+}
+.widgettitle
+{
+    font-size: 20px;
+    font-weight:900;
+}
+.icon
+{
+    color:white;
+}
+
+
+.patch001, #patch007, .patch005{
+    display: none;
+}
+
+
+
+.widget div div button:nth-child(2) {
+   
+
+    margin: -5px;
+    border: 0;
+    width: 0;
+    padding: 0;
+    font-size: 1px;
+}
+
+.widget {
+  
+    padding: 0.5rem;
+}
